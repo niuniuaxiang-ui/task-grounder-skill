@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务地基"
+  short_description: "通过约束提问产出边界清晰且可执行的项目地基文档和迭代计划"
+  default_prompt: "使用 $task-grounder，把我的想法整理成边界清晰、可执行的项目地基文档。"
+policy:
+  allow_implicit_invocation: true
