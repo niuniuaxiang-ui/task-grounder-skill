@@ -1,0 +1,6 @@
+interface:
+  display_name: "Task Grounder"
+  short_description: "通过约束提问产出边界清晰且可执行的项目地基文档和迭代计划"
+  default_prompt: "Use $task-grounder to turn my idea into a constrained project plan and execution brief."
+policy:
+  allow_implicit_invocation: true
